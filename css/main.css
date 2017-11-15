@@ -1,0 +1,21 @@
+* {
+  font-family: sans-serif;
+}
+
+.btn {
+  background-color: #0D47A1;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  display: block;
+  outline: none;
+  padding: 7px;
+}
+
+/*la etiqueta textarea viene con row y col para definir alto y
+ancho(cantidad de columnas y filas), sin embargo es mejor definirlo
+en CSS porque son estilos*/
+textarea {
+  height: 50px;
+  width: 200px;
+}
